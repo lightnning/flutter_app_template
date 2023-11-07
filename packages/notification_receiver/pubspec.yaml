@@ -1,0 +1,24 @@
+name: notification_receiver
+description: Notification Receiver.
+version: 1.0.0
+publish_to: "none"
+
+environment:
+  sdk: ^3.1.2
+
+dependencies:
+  firebase_messaging: ^14.6.6
+  flutter:
+    sdk: flutter
+  riverpod: ^2.3.7
+  riverpod_annotation: ^2.1.2
+
+dev_dependencies:
+  altive_lints: ^1.8.1
+  build_runner: ^2.4.6
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.2.0
+  riverpod_generator: ^2.2.6
+
+flutter:
